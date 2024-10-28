@@ -2,7 +2,7 @@
     {
         "name": "Kanapki z szynką i kiszonym ogórkiem",
         "kcal": 340,
-        "b": 16.5,
+        "b": 16,
         "ingredients": ["chleb razowy - 70 g",
             "masło - 5 g",
             "wędlina z indyka - 20 g",
@@ -12,13 +12,14 @@
         "recipe": [
             "1. Chleb posmaruj masłem, dodaj szynkę, sałatę i plasterki ogórka",
             "2. Zamknij kanapkę",
-        "3. Obok dodatkowo orzechy brazylijskie"]
+        "3. Obok dodatkowo orzechy brazylijskie"],
         "id": 1,
+        "isFavourite": true
     },
     {
         "name": "Sznycel z kurczaka z pieczarkami",
         "kcal": 493,
-        "b": 40.4,
+        "b": 40,
         "ingredients": [
             "pierś z kurczaka - 125 g",
             "pieczarki - 90 g",
@@ -37,12 +38,13 @@
             "4. Kiedy warzywa będą uduszone, wrzuć sznycle na chwilę na patelnię. Na talerzu posyp serem.",
             "5. Podawaj z ugotowaną kaszą lub ryżem oraz ogórkiem kiszonym."
         ],
-        "id": 2
+        "id": 2,
+        "isFavourite": true
     },
     {
         "name": "Zupa krem z marchewki i selera",
         "kcal": 387,
-        "b": 14.5,
+        "b": 14,
         "ingredients": [
             "marchew - 200 g",
             "seler (korzeń) - 80 g",
@@ -60,12 +62,13 @@
             "3. Zalej gorącą wodą (500-600 ml), dodaj ziele angielskie i liść laurowy, gotuj ok. 25-30 minut do miękkości warzyw. Dopraw i zblenduj. Sugerowane przyprawy: sól, pieprz, sos sojowy, kurkuma, chili, gałka muszkatołowa.",
             "4. Przelej do miseczki, dodaj śmietanę i posyp pestkami dyni. Możesz posypać posiekaną pietruszką lub kolendrą."
         ],
-        "id": 3
+        "id": 3,
+        "isFavourite": false
     },
     {
         "name": "Jajka na twardo z kremowym sosem i szczypiorkiem",
         "kcal": 429,
-        "b": 25.3,
+        "b": 25,
         "ingredients": [
             "jajko - 112 g",
             "musztarda - 10 g",
@@ -82,12 +85,13 @@
             "2. Wymieszaj na sos: jogurt, musztardę, majonez, keczup, sól, pieprz.",
             "3. Jajka przekrój na pół, posmaruj sosem i posyp szczypiorkiem. Zjedz z warzywami i chlebem."
         ],
-        "id": 4
+        "id": 4,
+        "isFavourite": false
     },
     {
         "name": "Jogurt straciatella z cynamonem i pomarańczą",
         "kcal": 317,
-        "b": 10.5,
+        "b": 10,
         "ingredients": [
             "jogurt naturalny - 200 g",
             "kakao (proszek bez dodatku cukru) - 2.5 g",
@@ -99,12 +103,13 @@
             "1. Czekoladę zetrzyj na tarce lub pokrój.",
             "2. Wymieszaj jogurt z kakao i cynamonem. Dodaj kawałki owoców i czekoladę."
         ],
-        "id": 5
+        "id": 5,
+        "isFavourite": false
     },
     {
         "name": "Makaron z pieczoną fetą, pomidorkami i szpinakiem",
         "kcal": 499,
-        "b": 19.3,
+        "b": 19,
         "ingredients": [
             "makaron pełnoziarnisty - 60 g",
             "ser feta - 50 g",
@@ -121,12 +126,13 @@
             "4. Rozgnieć składniki tłuczkiem do ziemniaków lub widelcem, aby powstał sos. Dodaj szpinak i wymieszaj.",
             "5. Wymieszaj z ugotowanym makaronem."
         ],
-        "id": 6
+        "id": 6,
+        "isFavourite": false
     },
     {
         "name": "Sałatka z tuńczykiem i sosem tzatziki",
         "kcal": 379,
-        "b": 27.1,
+        "b": 27,
         "ingredients": [
             "tuńczyk w wodzie (konserwowy) - 85 g",
             "mix sałat - 40 g",
@@ -147,12 +153,13 @@
             "4. Do miski dodaj warzywa, tuńczyka i polej sosem, posyp pestkami.",
             "5. Zjedz z chlebem."
         ],
-        "id": 7
+        "id": 7,
+        "isFavourite": false
     },
     {
         "name": "Obłędne placuszki z jabłkiem",
         "kcal": 413,
-        "b": 17.5,
+        "b": 17,
         "ingredients": [
             "jajko - 56 g",
             "mąka owsiana - 19.5 g",
@@ -171,12 +178,13 @@
             "3. Smaż na patelni z obu stron.",
             "4. Placuszki polej jogurtem, posyp płatkami migdałowymi lub wiórkami i cynamonem."
         ],
-        "id": 8
+        "id": 8,
+        "isFavourite": false
     },
     {
         "name": "Ziołowy twarożek",
         "kcal": 318,
-        "b": 30.7,
+        "b": 30,
         "ingredients": [
             "ser twarogowy półtłusty - 125 g",
             "jogurt naturalny - 40 g",
@@ -191,12 +199,13 @@
             "2. Wymieszaj z serkiem, jogurtem i przyprawą z suszonymi pomidorami.",
             "3. Zjedz z chlebem i paskami papryki (możesz ją drobno pokroić lub zetrzeć na tarce i dodać do serka)."
         ],
-        "id": 9
+        "id": 9,
+        "isFavourite": false
     },
     {
         "name": "Kaszotto bolognese",
         "kcal": 523,
-        "b": 35.4,
+        "b": 35,
         "ingredients": [
             "kasza bulgur - 45 g",
             "mięso mielone wołowe - 120 g",
@@ -213,12 +222,13 @@
             "2. W międzyczasie ugotuj kaszę w osolonej wodzie i pokrój drobno warzywa. Dorzuć warzywa i pomidory do mięsa i duś wszystko pod przykryciem. Dopraw ziołami włoskimi, solą i pieprzem.",
             "3. Na koniec wymieszaj wszystko z ugotowaną kaszą. Posyp natką pietruszki."
         ],
-        "id": 10
+        "id": 10,
+        "isFavourite": false
     },
     {
         "name": "Sałatka makaronowa z fetą",
         "kcal": 407,
-        "b": 14.0,
+        "b": 14,
         "ingredients": [
             "makaron pełnoziarnisty - 50 g",
             "ser feta - 30 g",
@@ -236,7 +246,8 @@
             "3. Wymieszaj oliwę z sokiem z cytryny, solą, pieprzem i ziołami prowansalskimi.",
             "4. Wymieszaj wszystko w misce i posyp pestkami słonecznika."
         ],
-        "id": 11
+        "id": 11,
+        "isFavourite": false
     }
 ]
  

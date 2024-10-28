@@ -7,12 +7,15 @@
 
 import Foundation
 
-struct Recipe: Hashable, Codable {
+struct Recipe: Hashable, Codable, Identifiable {
     var name: String
-    var kcal: String
-    var b: String
+    var kcal: Int
+    var b: Int
     var ingredients: [String]
     var recipe: [String]
     var id: Int
+    var isFavourite: Bool
 }
+
+
 

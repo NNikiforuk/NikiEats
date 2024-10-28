@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct RecipeRow: View {
+    var recipe: Recipe
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(recipe.name)
+            Spacer()
+            if recipe.isFavourite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.brown)
+            }
+        }
     }
 }
 
 #Preview {
-    RecipeRow()
+    Group {
+        RecipeRow(recipe: recipes[0])
+        RecipeRow(recipe: recipes[1])
+    }
 }

@@ -11,6 +11,12 @@
 		F5091F7B2CCAA7130068E60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5091F7A2CCAA7130068E60C /* ContentView.swift */; };
 		F5091F7D2CCAA7140068E60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5091F7C2CCAA7140068E60C /* Assets.xcassets */; };
 		F5091F802CCAA7140068E60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5091F7F2CCAA7140068E60C /* Preview Assets.xcassets */; };
+		F5091F892CCFBA6C0068E60C /* recipesData.json in Resources */ = {isa = PBXBuildFile; fileRef = F5091F882CCFBA6C0068E60C /* recipesData.json */; };
+		F5091F8B2CCFBE0F0068E60C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5091F8A2CCFBE0F0068E60C /* Recipe.swift */; };
+		F5091F8D2CCFBE9D0068E60C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5091F8C2CCFBE9D0068E60C /* ModelData.swift */; };
+		F5091F922CCFBFD60068E60C /* RecipeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5091F912CCFBFD60068E60C /* RecipeRow.swift */; };
+		F53F86362CCFC70500EE2394 /* RecipesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F86352CCFC70500EE2394 /* RecipesList.swift */; };
+		F53F86382CCFCEC500EE2394 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F86372CCFCEC500EE2394 /* RecipeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		F5091F7A2CCAA7130068E60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5091F7C2CCAA7140068E60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5091F7F2CCAA7140068E60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5091F882CCFBA6C0068E60C /* recipesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipesData.json; sourceTree = "<group>"; };
+		F5091F8A2CCFBE0F0068E60C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F5091F8C2CCFBE9D0068E60C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F5091F912CCFBFD60068E60C /* RecipeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRow.swift; sourceTree = "<group>"; };
+		F53F86352CCFC70500EE2394 /* RecipesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesList.swift; sourceTree = "<group>"; };
+		F53F86372CCFCEC500EE2394 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F5091F782CCAA7130068E60C /* NikiEatsApp.swift */,
-				F5091F7A2CCAA7130068E60C /* ContentView.swift */,
+				F5091F902CCFBFA90068E60C /* Resources */,
+				F5091F8E2CCFBF870068E60C /* Model */,
+				F5091F8F2CCFBF940068E60C /* Views */,
 				F5091F7C2CCAA7140068E60C /* Assets.xcassets */,
 				F5091F7E2CCAA7140068E60C /* Preview Content */,
 			);
@@ -65,6 +79,34 @@
 				F5091F7F2CCAA7140068E60C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5091F8E2CCFBF870068E60C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5091F8C2CCFBE9D0068E60C /* ModelData.swift */,
+				F5091F8A2CCFBE0F0068E60C /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5091F8F2CCFBF940068E60C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5091F7A2CCAA7130068E60C /* ContentView.swift */,
+				F5091F912CCFBFD60068E60C /* RecipeRow.swift */,
+				F53F86352CCFC70500EE2394 /* RecipesList.swift */,
+				F53F86372CCFCEC500EE2394 /* RecipeDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5091F902CCFBFA90068E60C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5091F882CCFBA6C0068E60C /* recipesData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +169,7 @@
 			files = (
 				F5091F802CCAA7140068E60C /* Preview Assets.xcassets in Resources */,
 				F5091F7D2CCAA7140068E60C /* Assets.xcassets in Resources */,
+				F5091F892CCFBA6C0068E60C /* recipesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5091F8B2CCFBE0F0068E60C /* Recipe.swift in Sources */,
+				F53F86382CCFCEC500EE2394 /* RecipeDetail.swift in Sources */,
+				F5091F8D2CCFBE9D0068E60C /* ModelData.swift in Sources */,
 				F5091F7B2CCAA7130068E60C /* ContentView.swift in Sources */,
 				F5091F792CCAA7130068E60C /* NikiEatsApp.swift in Sources */,
+				F5091F922CCFBFD60068E60C /* RecipeRow.swift in Sources */,
+				F53F86362CCFC70500EE2394 /* RecipesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
