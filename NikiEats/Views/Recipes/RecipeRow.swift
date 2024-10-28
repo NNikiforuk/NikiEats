@@ -24,6 +24,7 @@ struct RecipeRow: View {
 
 #Preview {
     let recipes = ModelData().recipes
+    
     return Group {
         RecipeRow(recipe: recipes[0])
         RecipeRow(recipe: recipes[1])
