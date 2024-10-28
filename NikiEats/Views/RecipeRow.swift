@@ -16,14 +16,15 @@ struct RecipeRow: View {
             Spacer()
             if recipe.isFavourite {
                 Image(systemName: "star.fill")
-                    .foregroundColor(.brown)
+                    .foregroundColor(.yellow)
             }
         }
     }
 }
 
 #Preview {
-    Group {
+    let recipes = ModelData().recipes
+    return Group {
         RecipeRow(recipe: recipes[0])
         RecipeRow(recipe: recipes[1])
     }

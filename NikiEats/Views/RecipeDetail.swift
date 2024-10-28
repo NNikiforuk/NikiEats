@@ -59,5 +59,5 @@ struct RecipeDetail: View {
 }
 
 #Preview {
-    RecipeDetail(recipe: recipes[1])
+    RecipeDetail(recipe: ModelData().recipes[0])
 }

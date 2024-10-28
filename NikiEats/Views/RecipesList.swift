@@ -8,23 +8,30 @@
 import SwiftUI
 
 struct RecipesList: View {
+    @Environment(ModelData.self) var modelData
     @State private var showFavouritesOnly = false
     
     var filteresRecipes: [Recipe] {
-        recipes.filter { recipe in
+        modelData.recipes.filter { recipe in
             !showFavouritesOnly || recipe.isFavourite
         }
     }
     
     var body: some View {
         NavigationSplitView {
-            List(filteresRecipes) { recipe in
-                NavigationLink {
-                    RecipeDetail(recipe: recipe)
-                } label: {
-                    RecipeRow(recipe: recipe)
+            List {
+                Toggle(isOn: $showFavouritesOnly) {
+                    Text("Favourites only")
+                }
+                ForEach(filteresRecipes) { recipe in
+                    NavigationLink {
+                        RecipeDetail(recipe: recipe)
+                    } label: {
+                        RecipeRow(recipe: recipe)
+                    }
                 }
             }
+            .animation(.default, value: filteresRecipes)
             .navigationTitle("Recipes")
         } detail: {
             Text("Select recipe")
@@ -34,4 +41,5 @@ struct RecipesList: View {
 
 #Preview {
     RecipesList()
+        .environment(ModelData())
 }
