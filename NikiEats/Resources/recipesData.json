@@ -1,0 +1,243 @@
+[
+    {
+        "name": "Kanapki z szynką i kiszonym ogórkiem",
+        "kcal": 340,
+        "b": 16.5,
+        "ingredients": ["chleb razowy - 70 g",
+            "masło - 5 g",
+            "wędlina z indyka - 20 g",
+            "ogórek kiszony - 180 g",
+            "sałata - 20 g",
+        "orzechy brazylijskie - 12 g"],
+        "recipe": [
+            "1. Chleb posmaruj masłem, dodaj szynkę, sałatę i plasterki ogórka",
+            "2. Zamknij kanapkę",
+        "3. Obok dodatkowo orzechy brazylijskie"]
+        "id": 1,
+    },
+    {
+        "name": "Sznycel z kurczaka z pieczarkami",
+        "kcal": 493,
+        "b": 40.4,
+        "ingredients": [
+            "pierś z kurczaka - 125 g",
+            "pieczarki - 90 g",
+            "cebula - 36 g",
+            "czosnek - 3 g",
+            "oliwa z oliwek - 10 g",
+            "przyprawa kebab/gyros - 2.5 g",
+            "kasza jęczmienna pęczak - 45 g",
+            "ogórek kiszony - 120 g",
+            "ser żółty - 10 g",
+        ],
+        "recipe": [
+            "1. Mięso pokrój w plastry i rozbij. Dopraw solą, pieprzem i przyprawą gyros.",
+            "2. Podsmaż na oliwie z obu stron. Kiedy będą gotowe, odłóż na bok.",
+            "3. Pokrój cebulę w kostkę, czosnek przeciśnij przez praskę, a pieczarki pokrój w plasterki. Wrzuć na tę samą patelnię, dodaj oliwę i duś. Dopraw solą i pieprzem.",
+            "4. Kiedy warzywa będą uduszone, wrzuć sznycle na chwilę na patelnię. Na talerzu posyp serem.",
+            "5. Podawaj z ugotowaną kaszą lub ryżem oraz ogórkiem kiszonym."
+        ],
+        "id": 2
+    },
+    {
+        "name": "Zupa krem z marchewki i selera",
+        "kcal": 387,
+        "b": 14.5,
+        "ingredients": [
+            "marchew - 200 g",
+            "seler (korzeń) - 80 g",
+            "cebula - 100 g",
+            "czosnek - 3 g",
+            "soczewica czerwona - 60 g",
+            "imbir świeży - 2 g",
+            "masło klarowane - 20 g",
+            "śmietana 12% tłuszczu - 40 g",
+            "pestki dyni - 30 g"
+        ],
+        "recipe": [
+            "1. Obierz i pokrój warzywa. Na maśle klarowanym lub oliwie podsmaż cebulę i czosnek.",
+            "2. Dodaj warzywa, soczewicę, imbir i podsmaż 2-3 minuty.",
+            "3. Zalej gorącą wodą (500-600 ml), dodaj ziele angielskie i liść laurowy, gotuj ok. 25-30 minut do miękkości warzyw. Dopraw i zblenduj. Sugerowane przyprawy: sól, pieprz, sos sojowy, kurkuma, chili, gałka muszkatołowa.",
+            "4. Przelej do miseczki, dodaj śmietanę i posyp pestkami dyni. Możesz posypać posiekaną pietruszką lub kolendrą."
+        ],
+        "id": 3
+    },
+    {
+        "name": "Jajka na twardo z kremowym sosem i szczypiorkiem",
+        "kcal": 429,
+        "b": 25.3,
+        "ingredients": [
+            "jajko - 112 g",
+            "musztarda - 10 g",
+            "jogurt naturalny - 20 g",
+            "majonez light - 10 g",
+            "keczup - 10 g",
+            "chleb razowy - 70 g",
+            "szczypiorek - 5 g",
+            "rukola - 20 g",
+            "ogórek świeży - 90 g"
+        ],
+        "recipe": [
+            "1. Jajka ugotuj na twardo lub na miękko.",
+            "2. Wymieszaj na sos: jogurt, musztardę, majonez, keczup, sól, pieprz.",
+            "3. Jajka przekrój na pół, posmaruj sosem i posyp szczypiorkiem. Zjedz z warzywami i chlebem."
+        ],
+        "id": 4
+    },
+    {
+        "name": "Jogurt straciatella z cynamonem i pomarańczą",
+        "kcal": 317,
+        "b": 10.5,
+        "ingredients": [
+            "jogurt naturalny - 200 g",
+            "kakao (proszek bez dodatku cukru) - 2.5 g",
+            "czekolada ciemna (70-85% masy kakaowej) - 12 g",
+            "cynamon - 0.3 g",
+            "pomarańcza - 240 g"
+        ],
+        "recipe": [
+            "1. Czekoladę zetrzyj na tarce lub pokrój.",
+            "2. Wymieszaj jogurt z kakao i cynamonem. Dodaj kawałki owoców i czekoladę."
+        ],
+        "id": 5
+    },
+    {
+        "name": "Makaron z pieczoną fetą, pomidorkami i szpinakiem",
+        "kcal": 499,
+        "b": 19.3,
+        "ingredients": [
+            "makaron pełnoziarnisty - 60 g",
+            "ser feta - 50 g",
+            "oliwa z oliwek - 10 g",
+            "pomidor koktajlowy - 200 g",
+            "szpinak - 50 g",
+            "cebula - 36 g",
+            "czosnek - 4 g"
+        ],
+        "recipe": [
+            "1. Makaron ugotuj al dente w osolonej wodzie.",
+            "2. Do naczynia żaroodpornego dodaj pomidorki, czosnek, posiekaną cebulę i fetę. Polej oliwą, dopraw pieprzem i ziołami włoskimi. Możesz dodać przyprawę z suszonymi pomidorami dla dodatkowego smaku.",
+            "3. Piecz w piekarniku nagrzanym do 200 stopni (góra/dół) przez około 25-30 minut.",
+            "4. Rozgnieć składniki tłuczkiem do ziemniaków lub widelcem, aby powstał sos. Dodaj szpinak i wymieszaj.",
+            "5. Wymieszaj z ugotowanym makaronem."
+        ],
+        "id": 6
+    },
+    {
+        "name": "Sałatka z tuńczykiem i sosem tzatziki",
+        "kcal": 379,
+        "b": 27.1,
+        "ingredients": [
+            "tuńczyk w wodzie (konserwowy) - 85 g",
+            "mix sałat - 40 g",
+            "papryka czerwona - 115 g",
+            "cebula - 30 g",
+            "jogurt naturalny - 40 g",
+            "majonez light - 15 g",
+            "musztarda - 5 g",
+            "czosnek - 2 g",
+            "ogórek świeży - 36 g",
+            "chleb razowy - 35 g",
+            "pestki słonecznika - 10 g"
+        ],
+        "recipe": [
+            "1. Tuńczyka odsącz.",
+            "2. Warzywa pokrój.",
+            "3. Wymieszaj jogurt z majonezem, musztardą, zmiażdżonym czosnkiem i tartym ogórkiem. Dopraw solą i pieprzem.",
+            "4. Do miski dodaj warzywa, tuńczyka i polej sosem, posyp pestkami.",
+            "5. Zjedz z chlebem."
+        ],
+        "id": 7
+    },
+    {
+        "name": "Obłędne placuszki z jabłkiem",
+        "kcal": 413,
+        "b": 17.5,
+        "ingredients": [
+            "jajko - 56 g",
+            "mąka owsiana - 19.5 g",
+            "jogurt naturalny - 20 g",
+            "ksylitol - 7 g",
+            "jabłko - 60 g",
+            "cynamon - 0.6 g",
+            "proszek do pieczenia - 0.3 g",
+            "oliwa z oliwek - 5 g",
+           " jogurt naturalny - 100 g",
+           " płatki migdałowe - 15 g"
+        ],
+        "recipe": [
+            "1. Jabłko pokrój w kosteczkę.",
+            "2. Wymieszaj widelcem jajko, jogurt, mąkę owsianą, proszek do pieczenia i cynamon (mąka owsiana to zmielone płatki owsiane). Dodaj pokrojone jabłko i wymieszaj wszystko.",
+            "3. Smaż na patelni z obu stron.",
+            "4. Placuszki polej jogurtem, posyp płatkami migdałowymi lub wiórkami i cynamonem."
+        ],
+        "id": 8
+    },
+    {
+        "name": "Ziołowy twarożek",
+        "kcal": 318,
+        "b": 30.7,
+        "ingredients": [
+            "ser twarogowy półtłusty - 125 g",
+            "jogurt naturalny - 40 g",
+            "przyprawa z suszonymi pomidorami - 1 g",
+            "bazylia świeża - 4 g",
+            "natka pietruszki - 6 g",
+            "chleb razowy - 35 g",
+            "papryka czerwona - 115 g"
+        ],
+        "recipe": [
+            "1. Posiekaj drobno bazylię i natkę pietruszki.",
+            "2. Wymieszaj z serkiem, jogurtem i przyprawą z suszonymi pomidorami.",
+            "3. Zjedz z chlebem i paskami papryki (możesz ją drobno pokroić lub zetrzeć na tarce i dodać do serka)."
+        ],
+        "id": 9
+    },
+    {
+        "name": "Kaszotto bolognese",
+        "kcal": 523,
+        "b": 35.4,
+        "ingredients": [
+            "kasza bulgur - 45 g",
+            "mięso mielone wołowe - 120 g",
+            "oliwa z oliwek - 5 g",
+            "cebula - 30 g",
+            "czosnek - 2 g",
+            "cukinia - 100 g",
+            "pieczarki - 60 g",
+            "pomidory z puszki - 200 g",
+            "natka pietruszki - 12 g"
+        ],
+        "recipe": [
+            "1. Na oliwie podsmaż mięso. Dopraw solą, pieprzem, chili, papryką słodką i ziołami włoskimi. Po chwili dodaj posiekaną cebulę i czosnek, i duś pod przykryciem.",
+            "2. W międzyczasie ugotuj kaszę w osolonej wodzie i pokrój drobno warzywa. Dorzuć warzywa i pomidory do mięsa i duś wszystko pod przykryciem. Dopraw ziołami włoskimi, solą i pieprzem.",
+            "3. Na koniec wymieszaj wszystko z ugotowaną kaszą. Posyp natką pietruszki."
+        ],
+        "id": 10
+    },
+    {
+        "name": "Sałatka makaronowa z fetą",
+        "kcal": 407,
+        "b": 14.0,
+        "ingredients": [
+            "makaron pełnoziarnisty - 50 g",
+            "ser feta - 30 g",
+            "ogórek świeży - 54 g",
+            "papryka czerwona - 69 g",
+            "rukola - 20 g",
+            "kapary - 10 g",
+            "pestki słonecznika - 5 g",
+            "oliwa z oliwek - 10 g",
+            "sok z cytryny - 3 g"
+        ],
+        "recipe": [
+            "1. Makaron ugotuj świeży lub skorzystaj z zostawionego z poprzedniego dnia.",
+            "2. Warzywa pokrój, fetę pokrusz, a kapary odsącz.",
+            "3. Wymieszaj oliwę z sokiem z cytryny, solą, pieprzem i ziołami prowansalskimi.",
+            "4. Wymieszaj wszystko w misce i posyp pestkami słonecznika."
+        ],
+        "id": 11
+    }
+]
+ 
+ 
